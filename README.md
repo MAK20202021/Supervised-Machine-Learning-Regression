@@ -33,4 +33,4 @@ The source codes and Data files are as follows:
 
 
 ## Discussion
-After completing this exercise, I understand how we can do Exploratory Data Analysis and make the data ready for building the machine learning model through feature engineering and hypothesis testing.
+After completing this exercise, I understand how we can build supervised machine learning linear regression model and in addtion we can find the utilization of Lasso and Ridge model to prevent from the overfitting problem.
