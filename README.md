@@ -9,11 +9,9 @@ Linear Regression is mainly the linear combinations of features, however, we can
 
 Regularization performs feature selection by reducing the contribution of features which prevents overfitting. Identifying most critical features can improve the model interpretability. Scaling is very important before regularization. In case of Ridge regression, the complexity penalty (lambda) is proportonal to the square of the coefficients and in case of Lasso regression, the complexity penalty (lambda) is proportonal to the absolute value of the coefficients. Compared with Lasso regression (assuming similar implementation) Ridge regression is less likely to set feature coefficients to zero. 
  
-
-At last, we completed a combined project which reflects all the above topics together. 
-We chose Ames Housing Data which involves the lot area, all other amenities of the housing and corresponding sale price.
+At last, we completed a combined project which reflects all the above topics together. We chose Smart home energy Dataset (Source link: https://www.kaggle.com/datasets/taranvee/smart-home-dataset-with-weather-information?resource=download) which involves the energy usage of different appliances such as dishwasher, furnace, fridge, microwave oven and the different room such as living room, home office, kitchen, etc. Initially, this dataset has shape of (503911, 32).
 At the beginning, we do EDA to get initial idea about the data, then did some feature engineering to get the useful features before 
-building the machine learning model. At last we evaluated our results by performing hypothesis testing.
+building the machine learning model. We used polynomial features and scaling data before regularization. Then we compare resuls among three models such as Linear regression, Lasso regression and Ridge regression.
 
 ## Acknowledgement
 This exercise is for [IBM Machine Learning Professional Certificate Program](https://www.coursera.org/professional-certificates/ibm-machine-learning?).
