@@ -5,8 +5,11 @@ This exercise is the combination of the following three topics:
 -  Cross Validation and Grid Search
 -  Regularization (Lasso and Ridge Regression) and Gradient Descent 
 
+Linear Regression is mainly the linear combinations of features, however, we can add some nonlinearities of the features to get more accurate results. We used polynomialfeatures from preprossessing library. We have analized the bais and variance where baia is a tendency to miss and variance is tendency to be inconsistent. The higher degree of a polynomial regression, the more complex the model which has lower bias and higher variance. The main goal is to find the right degree such that the model has sufficient complexity to describe the data without overfitting. Then we have focused on the train and test splitting of the data set to evaluate the model accurately with the test set. Cross validation and Grid search can provide us more accurate model by tunning hyperparameters. 
 
-Exploratory Data Analysis (EDA) is the crucial process 
+Regularization performs feature selection by reducing the contribution of features which prevents overfitting. Identifying most critical features can improve the model interpretability. Scaling is very important before regularization. In case of Ridge regression, the complexity penalty (lambda) is proportonal to the square of the coefficients and in case of Lasso regression, the complexity penalty (lambda) is proportonal to the absolute value of the coefficients. Compared with Lasso regression (assuming similar implementation) Ridge regression is less likely to set feature coefficients to zero. 
+ 
+
 At last, we completed a combined project which reflects all the above topics together. 
 We chose Ames Housing Data which involves the lot area, all other amenities of the housing and corresponding sale price.
 At the beginning, we do EDA to get initial idea about the data, then did some feature engineering to get the useful features before 
